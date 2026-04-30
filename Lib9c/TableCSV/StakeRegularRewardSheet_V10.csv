@@ -1,83 +1,25 @@
-lv,required_gold,item_id,rate,type,currency_ticker,currency_decimal_places,decimal_rate,tradable
-1,50,400000,,Item,,,10,TRUE
-1,50,500000,,Item,,,800,TRUE
-1,50,20001,,Rune,,,6000,TRUE
-2,500,400000,,Item,,,4,TRUE
-2,500,500000,,Item,,,600,TRUE
-2,500,20001,,Rune,,,6000,TRUE
-2,500,,,Currency,CRYSTAL,18,0.1,TRUE
-2,500,600401,,Item,,,100,TRUE
-3,5000,600401,,Item,,,100,TRUE
-3,5000,,,Currency,RUNESTONE_GOLDENTHOR,0,5000,TRUE
-3,5000,400000,,Item,,,2,TRUE
-3,5000,500000,,Item,,,400,TRUE
-3,5000,20001,,Rune,,,5000,TRUE
-3,5000,,,Currency,CRYSTAL,18,0.02,TRUE
-3,5000,600201,,Item,,,500,FALSE
-3,5000,800201,,Item,,,500,FALSE
-3,5000,600202,,Item,,,5000,FALSE
-4,50000,600401,,Item,,,100,TRUE
-4,50000,,,Currency,RUNESTONE_GOLDENTHOR,0,5000,TRUE
-4,50000,400000,,Item,,,2,TRUE
-4,50000,500000,,Item,,,400,TRUE
-4,50000,20001,,Rune,,,5000,TRUE
-4,50000,,,Currency,CRYSTAL,18,0.02,TRUE
-4,50000,600201,,Item,,,500,FALSE
-4,50000,800201,,Item,,,500,FALSE
-4,50000,800202,,Item,,,10000,FALSE
-4,50000,600202,,Item,,,5000,FALSE
-5,500000,600401,,Item,,,100,TRUE
-5,500000,,,Currency,RUNESTONE_GOLDENTHOR,0,5000,TRUE
-5,500000,400000,,Item,,,1,TRUE
-5,500000,500000,,Item,,,200,TRUE
-5,500000,20001,,Rune,,,3000,TRUE
-5,500000,,,Currency,CRYSTAL,18,0.02,TRUE
-5,500000,600201,,Item,,,357,FALSE
-5,500000,800201,,Item,,,357,FALSE
-5,500000,800202,,Item,,,10000,FALSE
-5,500000,600202,,Item,,,3570,FALSE
-6,1000000,600401,,Item,,,100,TRUE
-6,1000000,,,Currency,RUNESTONE_GOLDENTHOR,0,5000,TRUE
-6,1000000,400000,,Item,,,1,TRUE
-6,1000000,500000,,Item,,,200,TRUE
-6,1000000,20001,,Rune,,,3000,TRUE
-6,1000000,,,Currency,CRYSTAL,18,0.02,TRUE
-6,1000000,600201,,Item,,,200,FALSE
-6,1000000,800201,,Item,,,200,FALSE
-6,1000000,800202,,Item,,,10000,FALSE
-6,1000000,,,Currency,GARAGE,18,10000,TRUE
-6,1000000,600202,,Item,,,2000,FALSE
-7,5000000,600401,,Item,,,100,TRUE
-7,5000000,,,Currency,RUNESTONE_GOLDENTHOR,0,2500,TRUE
-7,5000000,400000,,Item,,,1,TRUE
-7,5000000,500000,,Item,,,200,TRUE
-7,5000000,20001,,Rune,,,3000,TRUE
-7,5000000,800201,,Item,,,100,FALSE
-7,5000000,,,Currency,CRYSTAL,18,0.02,TRUE
-7,5000000,600201,,Item,,,100,FALSE
-7,5000000,800202,,Item,,,100,FALSE
-7,5000000,,,Currency,GARAGE,18,500,TRUE
-7,5000000,600202,,Item,,,1000,FALSE
-8,10000000,600401,,Item,,,100,TRUE
-8,10000000,,,Currency,RUNESTONE_GOLDENTHOR,0,1000,TRUE
-8,10000000,400000,,Item,,,0.4,TRUE
-8,10000000,500000,,Item,,,80,TRUE
-8,10000000,20001,,Rune,,,1200,TRUE
-8,10000000,600201,,Item,,,50,FALSE
-8,10000000,800201,,Item,,,50,FALSE
-8,10000000,,,Currency,GARAGE,18,100,TRUE
-8,10000000,,,Currency,CRYSTAL,18,0.002,TRUE
-8,10000000,800202,,Item,,,50,FALSE
-8,10000000,600202,,Item,,,500,FALSE
-3,5000,600306,,Item,,,5000,FALSE
-4,50000,600306,,Item,,,5000,FALSE
-5,500000,600306,,Item,,,5000,FALSE
-6,1000000,600306,,Item,,,5000,FALSE
-7,5000000,600306,,Item,,,50,FALSE
-8,10000000,600306,,Item,,,50,FALSE
-7,5000000,600206,,Item,,,50,FALSE
-8,10000000,600206,,Item,,,50,FALSE
-7,5000000,600303,,Item,,,50,FALSE
-8,10000000,600303,,Item,,,50,FALSE
-7,5000000,600307,,Item,,,50,FALSE
-8,10000000,600307,,Item,,,50,FALSE
+,Update.Ver Folder Name,v200420 CSV Name,최근 업데이트,설명,데이터 상태,타겟 서버,비고
+1,etc,CollectionSheet,v200400,시즌패스 보상 칭호 1종 및 초월 제작장비 10종 관련 15종 추가,행 추가,all,
+2,Item,CostumeItemSheet,v200400,시즌패스 보상 칭호 1종 추가,행 추가,all,
+3,Item,CostumeStatSheet,v200400,시즌패스 보상 칭호 1종 스탯 추가,행 추가,all,
+5,Item,MaterialItemSheet,v200400,"초월 등급 재료·재화 추가 (카탈리스트 포션, 초월 망치 등)",행 추가,all,기존 개요 누락 → 추가
+6,Rune,RuneSheet,v200350,"신규 초월 룬 2종(10053 Freya PETPOP, 10054 Breaker) 추가",행 추가,all,
+7,Rune,RuneListSheet,v200350,신규 초월 룬 2종 등급·타입·use_place 정의,행 추가,all,
+8,Rune,RuneOptionSheet,v200370,신규 초월 룬 2종 레벨별 스탯·스킬 데이터,행 추가,all,Mjolnir 50lv + Ragnarok 50lv + Odin Order 24lv
+9,Rune,RuneCostSheet,v200350,신규 초월 룬 2종 레벨업 비용(룬스톤·크리스탈·NCG),행 추가,all,
+10,etc,InfiniteTowerScheduleSheet,v200400,무한의 탑 시즌 스케줄 및 티켓 정책 관리,행 추가,개별 시트,서버별(Odin/Heimdall) 개별 시트
+11,etc,InfiniteTowerFloorSheet,v200400,46층 정의: CP·제한사항·보상·조건·스탯옵션,행 추가,all,1~10(기본)+11~20+21~30+31~46층
+12,etc,InfiniteTowerFloorWaveSheet,v200400,각 층 몬스터 웨이브 구성 (3웨이브/층),행 추가,all,52층까지 확장
+13,etc,InfiniteTowerConditionSheet,v200400,전투 조건별 스탯 수정 정의 (29개 조건),행 추가,all,
+14,etc,StakeRegularRewardSheet_V10,v200400,신화 망치(600307) 보상 추가,값 수정,all,
+15,Skill,SkillSheet,v200400,전체 스킬 ID·타입·카테고리·타겟·쿨다운 정의,행 추가,all,700016 FullBuffRemovalAttack 포함
+16,Skill,StatBuffSheet,v200400,버프/디버프 ID·그룹·스탯·수치·지속시간 정의,행 추가,all,
+17,Skill,SkillBuffSheet,v200400,스킬ID → 버프ID 연결 테이블,행 추가,all,
+18,etc,SummonSheet,v200400,소환 그룹별 확률·보장 시스템 데이터,값 수정,all,"10053, 10054 룬 추가 반영"
+19,etc,SynthesizeSheet,v200400,등급별 합성 재료수·성공률 (grade 8: 초월 합성 불가),값 수정,all,
+20,etc,GameConfigSheet,v200400,AP최대값·보상인터벌·슬롯·어드벤처보스 등 전역 상수,값 수정,all,
+21,Event,EventScheduleSheet,v200400,"이벤트 던전 스케줄 (블록인덱스, 티켓, 가격)",행 추가,개별 시트,서버별(Odin/Heimdall) 개별
+22,Event,EventDungeonWorldSheet,v200400,이벤트 던전 월드 정의 (12개 이벤트),행 추가,all,
+23,Event,EventDungeonStageSheet,v200400,이벤트 스테이지별 AP·턴·스탯·드랍 정의,행 추가,all,
+24,Event,EventDungeonStageWaveSheet,v200400,이벤트 스테이지별 몬스터 웨이브 구성,행 추가,all,
+25,Skill,BuffLimitSheet,v200350,기존 버프 상태 데이터 변경,값 수정,all,
